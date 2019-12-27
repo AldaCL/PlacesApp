@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# hello_hell
+
+# PlacesApp
 
 A new Flutter project.
 
