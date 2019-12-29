@@ -5,7 +5,7 @@ A new Flutter project.
 
 ## Getting Started
 
-![](name-of-giphy.gif)
+![](https://github.com/AldaCL/PlacesApp/blob/master/places11.gif)
 
 This project is a starting point for a Flutter application.
 
