@@ -7,7 +7,7 @@ class CardImageProfile extends StatelessWidget{
   String pathimage = 'assets/place1.jpg';
   String pName = "Las Gorditas de Roque";
   String pDescription = "Aqui venden las gorditas de Chochinnita mas perras";
-  String pSteps = "123,333,222";
+  String pSteps = "123,333,222 Steps";
 
 
 
@@ -42,7 +42,7 @@ class CardImageProfile extends StatelessWidget{
             //),
             decoration: BoxDecoration(
               image: DecorationImage(
-              image:AssetImage('assets/img/place1.jpg',),
+              image:AssetImage(pathimage,),
               fit: BoxFit.cover),
 
               borderRadius: BorderRadius.all(Radius.circular(10.0)),

@@ -108,17 +108,20 @@ class PlacesDescription extends StatelessWidget {
       ],
     );
 
-    return Column(
+    return Container(
+      child: Column(
+        
 
-      crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
 
-      children: <Widget>[ 
-      
-        titleStars,
-        descripcion,
-        ButtonPurple("Navigate"),
-      ],
+        children: <Widget>[ 
+        
+          titleStars,
+          descripcion,
+          ButtonPurple("Navigate"),
+        ],
 
+      ),
     );
   }
 }

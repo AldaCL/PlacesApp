@@ -24,12 +24,14 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       body: Stack( //Pone un elemento sobre otro 
         children: <Widget>[
-          ListView(
-            children: <Widget>[
-              PlacesDescription("La tienda de Ron Data", textodescripcion,2),
-              ReviewList(),
-            ],
-          ),
+            ListView(
+              
+              children: <Widget>[
+                PlacesDescription("La tienda de Ron Data", textodescripcion,2),
+                ReviewList(),
+              ],
+            ),
+          
           HeaderAppbar(),
           //GradienBrack("Popular"),
 

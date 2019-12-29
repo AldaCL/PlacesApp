@@ -20,6 +20,7 @@ class ButtonPurple extends StatelessWidget{
       ),
       child: InkWell(
         onTap: (){
+          Scaffold.of(context).hideCurrentSnackBar();
           Scaffold.of(context).showSnackBar(
             SnackBar(
               content: Text("Navegando Ando"),
