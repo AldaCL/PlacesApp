@@ -8,6 +8,7 @@ A new Flutter project.
 ![](https://github.com/AldaCL/PlacesApp/blob/master/places11.gif)
 
 This project is a starting point for a Flutter application.
+![](https://github.com/AldaCL/PlacesApp/blob/master/places22.gif)
 
 A few resources to get you started if this is your first Flutter project:
 
